@@ -44,6 +44,10 @@ public class Ship {
         positions.add(new Position(letter, number));
     }
 
+    public void remPosition(String input){
+        positions.remove(input);
+    }
+
     // TODO: property change listener implementieren
 
     public boolean isPlaced() {
